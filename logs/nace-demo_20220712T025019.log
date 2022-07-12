@@ -1,0 +1,1515 @@
+2022-07-12 02:50:20 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner -
+				SpringJUnit4ClassRunner constructor called with [class com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2022-07-12 02:50:20 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2022-07-12 02:50:20 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating TestContextBootstrapper for test class [com.pankaj.nace.repository.NaceRepositoryTest] from class [org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper]
+2022-07-12 02:50:20 [main] INFO  o.s.b.t.a.o.j.DataJpaTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pankaj.nace.repository.NaceRepositoryTest], using SpringBootContextLoader
+2022-07-12 02:50:20 [main] DEBUG o.s.t.c.s.AbstractContextLoader -
+				Did not detect default resource location for test class [com.pankaj.nace.repository.NaceRepositoryTest]: class path resource [com/pankaj/nace/repository/NaceRepositoryTest-context.xml] does not exist
+2022-07-12 02:50:20 [main] DEBUG o.s.t.c.s.AbstractContextLoader -
+				Did not detect default resource location for test class [com.pankaj.nace.repository.NaceRepositoryTest]: class path resource [com/pankaj/nace/repository/NaceRepositoryTestContext.groovy] does not exist
+2022-07-12 02:50:20 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.pankaj.nace.repository.NaceRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-07-12 02:50:20 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.pankaj.nace.repository.NaceRepositoryTest]: NaceRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-07-12 02:50:20 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils -
+				Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider -
+				Identified candidate component class: file [F:\pankaj\workspace\nace-demo\target\classes\com\pankaj\nace\NaceDemoApplication.class]
+2022-07-12 02:50:20 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.pankaj.nace.NaceDemoApplication for test class com.pankaj.nace.repository.NaceRepositoryTest
+2022-07-12 02:50:20 [main] DEBUG o.s.b.t.a.o.j.DataJpaTestContextBootstrapper -
+				@TestExecutionListeners is not present for class [com.pankaj.nace.repository.NaceRepositoryTest]: using defaults.
+2022-07-12 02:50:20 [main] INFO  o.s.b.t.a.o.j.DataJpaTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-07-12 02:50:20 [main] INFO  o.s.b.t.a.o.j.DataJpaTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d025197, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27d4a09, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e4204e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b7c4869, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@740d2e78, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c481ff2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@72437d8d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1b955cac, org.springframework.test.context.event.EventPublishingTestExecutionListener@676cf48, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5a1de7fb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@335b5620, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@29a0cdb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@32a68f4f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73194df, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6eb2384f]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				Before test class: context [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.pankaj.nace.repository.NaceRepositoryTest]
+2022-07-12 02:50:20 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener -
+				Performing dependency injection for test context [[DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = com.pankaj.nace.repository.NaceRepositoryTest@1a760689, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+2022-07-12 02:50:21 [main] DEBUG o.s.t.c.s.TestPropertySourceUtils -
+				Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}
+2022-07-12 02:50:22 [main] INFO  c.p.n.repository.NaceRepositoryTest -
+				Starting NaceRepositoryTest using Java 11.0.8 on DESKTOP-3P7O4HB with PID 27064 (started by shiwani in F:\pankaj\workspace\nace-demo)
+2022-07-12 02:50:22 [main] DEBUG c.p.n.repository.NaceRepositoryTest -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2022-07-12 02:50:22 [main] INFO  c.p.n.repository.NaceRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2022-07-12 02:50:22 [main] DEBUG o.s.boot.SpringApplication -
+				Loading source class com.pankaj.nace.NaceDemoApplication
+2022-07-12 02:50:22 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3caa4757
+2022-07-12 02:50:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-07-12 02:50:22 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2022-07-12 02:50:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.boot.enableautoconfiguration' in PropertySource 'configurationProperties' with value of type String
+2022-07-12 02:50:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+2022-07-12 02:50:22 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.datasource.url' in PropertySource 'configurationProperties' with value of type String
+2022-07-12 02:50:23 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.data.jpa.repositories.bootstrap-mode' in PropertySource 'Annotations' with value of type BootstrapMode
+2022-07-12 02:50:23 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.test.database.replace' in PropertySource 'Annotations' with value of type Replace
+2022-07-12 02:50:23 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.test.database.replace' in PropertySource 'Annotations' with value of type Replace
+2022-07-12 02:50:23 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.data.jpa.repositories.bootstrap-mode' in PropertySource 'Annotations' with value of type BootstrapMode
+2022-07-12 02:50:23 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver -
+				Found key 'spring.data.jpa.repositories.bootstrap-mode' in PropertySource 'Annotations' with value of type BootstrapMode
+2022-07-12 02:50:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-12 02:50:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-07-12 02:50:23 [main] DEBUG o.s.b.a.AutoConfigurationPackages -
+				@EnableAutoConfiguration was declared on a class in the package 'com.pankaj.nace'. Automatic @Repository and @Entity scanning is enabled.
+2022-07-12 02:50:23 [main] DEBUG o.s.d.r.c.RepositoryConfigurationDelegate -
+				Scanning for JPA repositories in packages com.pankaj.nace.
+2022-07-12 02:50:23 [main] DEBUG o.s.d.r.c.RepositoryComponentProvider -
+				Identified candidate component class: file [F:\pankaj\workspace\nace-demo\target\classes\com\pankaj\nace\repository\NaceRepository.class]
+2022-07-12 02:50:23 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider -
+				Identified candidate component class: file [F:\pankaj\workspace\nace-demo\target\classes\com\pankaj\nace\service\NaceServiceImpl.class]
+2022-07-12 02:50:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 275 ms. Found 1 JPA repository interfaces.
+2022-07-12 02:50:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor'
+2022-07-12 02:50:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+2022-07-12 02:50:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-07-12 02:50:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2022-07-12 02:50:23 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionAttributeSource'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionInterceptor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'dataSource'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2022-07-12 02:50:24 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				Driver class org.mariadb.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'entityManagerFactory'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@261d8190'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'jpaVendorAdapter'
+2022-07-12 02:50:24 [main] DEBUG org.jboss.logging -
+				Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+2022-07-12 02:50:24 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+2022-07-12 02:50:24 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-07-12 02:50:24 [main] DEBUG o.h.jpa.internal.util.LogHelper -
+				PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/F:/pankaj/workspace/nace-demo/target/test-classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.pankaj.nace.dto.Nace]
+	Mapping files names []
+	Properties []
+2022-07-12 02:50:24 [main] DEBUG o.h.i.internal.IntegratorServiceImpl -
+				Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2022-07-12 02:50:24 [main] DEBUG o.h.i.internal.IntegratorServiceImpl -
+				Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2022-07-12 02:50:24 [main] DEBUG o.h.i.internal.IntegratorServiceImpl -
+				Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2022-07-12 02:50:25 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-12 02:50:25 [main] DEBUG org.hibernate.cfg.Environment -
+				HHH000206: hibernate.properties not found
+2022-07-12 02:50:25 [main] DEBUG o.h.service.spi.ServiceBinding -
+				Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2022-07-12 02:50:25 [main] DEBUG o.h.c.i.RegionFactoryInitiator -
+				Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2022-07-12 02:50:25 [main] DEBUG o.h.c.i.RegionFactoryInitiator -
+				Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2022-07-12 02:50:25 [main] INFO  o.h.annotations.common.Version -
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@20999517
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@20999517
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@20999517
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@479ac2cb
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration true_false -> org.hibernate.type.TrueFalseType@51a651c1
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration yes_no -> org.hibernate.type.YesNoType@158e9f6e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@65e22def
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@65e22def
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@65e22def
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration character -> org.hibernate.type.CharacterType@1c52552f
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char -> org.hibernate.type.CharacterType@1c52552f
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1c52552f
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@287ae90c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@287ae90c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Short -> org.hibernate.type.ShortType@287ae90c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration integer -> org.hibernate.type.IntegerType@9ab310b
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration int -> org.hibernate.type.IntegerType@9ab310b
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@9ab310b
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@51bddd98
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@51bddd98
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Long -> org.hibernate.type.LongType@51bddd98
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@10e5bf9c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@10e5bf9c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Float -> org.hibernate.type.FloatType@10e5bf9c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@712ac7e6
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@712ac7e6
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@712ac7e6
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@106b014e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@106b014e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_integer -> org.hibernate.type.BigIntegerType@649f25f3
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@649f25f3
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration string -> org.hibernate.type.StringType@60ed12e8
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.String -> org.hibernate.type.StringType@60ed12e8
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nstring -> org.hibernate.type.StringNVarcharType@67bf0480
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2bbb44da
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration url -> org.hibernate.type.UrlType@4ef2ab73
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.net.URL -> org.hibernate.type.UrlType@4ef2ab73
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Duration -> org.hibernate.type.DurationType@5df63359
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5df63359
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Instant -> org.hibernate.type.InstantType@3fc7c734
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Instant -> org.hibernate.type.InstantType@3fc7c734
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@583fb274
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@583fb274
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2753316c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2753316c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@164642a4
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@164642a4
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7793ad58
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7793ad58
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4f169009
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4f169009
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1200458e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1200458e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration date -> org.hibernate.type.DateType@6f5e16cf
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Date -> org.hibernate.type.DateType@6f5e16cf
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration time -> org.hibernate.type.TimeType@136ccbfe
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Time -> org.hibernate.type.TimeType@136ccbfe
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timestamp -> org.hibernate.type.TimestampType@a7cf42f
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@a7cf42f
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Date -> org.hibernate.type.TimestampType@a7cf42f
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@70a898b0
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar -> org.hibernate.type.CalendarType@b9d018b
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@b9d018b
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@b9d018b
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1de4285e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@58ae402b
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration locale -> org.hibernate.type.LocaleType@68b734a8
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@68b734a8
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration currency -> org.hibernate.type.CurrencyType@488f3dd1
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@488f3dd1
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timezone -> org.hibernate.type.TimeZoneType@2668c286
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2668c286
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration class -> org.hibernate.type.ClassType@474179fa
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Class -> org.hibernate.type.ClassType@474179fa
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@17043b04
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@17043b04
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4c82b5df
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration binary -> org.hibernate.type.BinaryType@2693c618
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte[] -> org.hibernate.type.BinaryType@2693c618
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [B -> org.hibernate.type.BinaryType@2693c618
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@63f6bed1
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@63f6bed1
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@63f6bed1
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration row_version -> org.hibernate.type.RowVersionType@6975fb1c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration image -> org.hibernate.type.ImageType@566f1852
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration characters -> org.hibernate.type.CharArrayType@67bd351e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char[] -> org.hibernate.type.CharArrayType@67bd351e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [C -> org.hibernate.type.CharArrayType@67bd351e
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@2349f14d
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@2349f14d
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@2349f14d
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration text -> org.hibernate.type.TextType@716185fe
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ntext -> org.hibernate.type.NTextType@51f95f0d
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration blob -> org.hibernate.type.BlobType@5d1b1c2a
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5d1b1c2a
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@77429040
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration clob -> org.hibernate.type.ClobType@66383c29
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@66383c29
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nclob -> org.hibernate.type.NClobType@53f0d09c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@53f0d09c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2272cbb0
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@47272cd3
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration serializable -> org.hibernate.type.SerializableType@2839e3c8
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration object -> org.hibernate.type.ObjectType@5a058be5
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5a058be5
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7061622
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@32d418a9
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@52ea0269
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@746c411c
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@43ecfeb5
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@51efb731
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@53940e2f
+2022-07-12 02:50:26 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@45e6d1e0
+2022-07-12 02:50:26 [main] DEBUG o.h.b.internal.BootstrapContextImpl -
+				Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4aa31ffc] into BootstrapContext; was [null]
+2022-07-12 02:50:26 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4aa31ffc) [was null]
+2022-07-12 02:50:26 [main] DEBUG o.h.b.internal.BootstrapContextImpl -
+				Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@4b862408] into BootstrapContext; was [null]
+2022-07-12 02:50:26 [main] DEBUG o.h.b.internal.BootstrapContextImpl -
+				Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@6ddee60f] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@6e829e50]
+2022-07-12 02:50:26 [main] DEBUG o.h.b.internal.BootstrapContextImpl -
+				Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4aa31ffc]
+2022-07-12 02:50:26 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4aa31ffc]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-07-12 02:50:26 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -
+				Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				HikariPool-1 - configuration:
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				allowPoolSuspension................................false
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				autoCommit................................true
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				catalog................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				connectionInitSql................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				connectionTestQuery................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				connectionTimeout................................30000
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSource................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSourceClassName................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSourceJNDI................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				dataSourceProperties................................{password=<masked>}
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				driverClassName................................"org.mariadb.jdbc.Driver"
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				exceptionOverrideClassName................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				healthCheckProperties................................{}
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				healthCheckRegistry................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				idleTimeout................................600000
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				initializationFailTimeout................................1
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				isolateInternalQueries................................false
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				jdbcUrl................................jdbc:mariadb://localhost:3300/testdb
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				keepaliveTime................................0
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				leakDetectionThreshold................................0
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				maxLifetime................................1800000
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				maximumPoolSize................................10
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				metricRegistry................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				metricsTrackerFactory................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				minimumIdle................................10
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				password................................<masked>
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				poolName................................"HikariPool-1"
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				readOnly................................false
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				registerMbeans................................false
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				scheduledExecutor................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				schema................................none
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				threadFactory................................internal
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				transactionIsolation................................default
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				username................................"root"
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.HikariConfig -
+				validationTimeout................................5000
+2022-07-12 02:50:26 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2022-07-12 02:50:26 [main] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@68b7d0ef
+2022-07-12 02:50:26 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2022-07-12 02:50:26 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator -
+				Database ->
+       name : MariaDB
+    version : 10.7.4-MariaDB
+      major : 10
+      minor : 7
+2022-07-12 02:50:26 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator -
+				Driver ->
+       name : MariaDB Connector/J
+    version : 2.7.4
+      major : 2
+      minor : 7
+2022-07-12 02:50:26 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator -
+				JDBC version : 4.2
+2022-07-12 02:50:27 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-07-12 02:50:27 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1a34b95
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@f64a5d1
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@b5b20e5
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4e59afea
+2022-07-12 02:50:27 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder -
+				IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@553dba57
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7f5dc70c
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2dd38c0a
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2e7650a5
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@16a1a83e
+2022-07-12 02:50:27 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2022-07-12 02:50:27 [main] DEBUG o.h.boot.model.relational.Namespace -
+				Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2022-07-12 02:50:27 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1c297897] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@33e0c716]
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.AnnotationBinder -
+				Binding entity from annotated class: com.pankaj.nace.dto.Nace
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.EntityBinder -
+				Import with entity name Nace
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.EntityBinder -
+				Bind entity com.pankaj.nace.dto.Nace on table nace
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=order_id, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				Not known whether passed class name [com.pankaj.nace.dto.Nace] is safe
+2022-07-12 02:50:27 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.pankaj.nace.dto.Nace
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property orderId with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:orderId]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for orderId
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property orderId
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.BinderHelper -
+				#makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(order_id)]), orderId, assigned, , ...)
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=code, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property code with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:code]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for code
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property code
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=description, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property description with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:description]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for description
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property description
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=level, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property level with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:level]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for level
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property level
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=parent, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property parent with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:parent]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for parent
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property parent
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=reference_to_isic_rev4, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property referenceToIsicRev4 with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:referenceToIsicRev4]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for referenceToIsicRev4
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property referenceToIsicRev4
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=rulings, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property rulings with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:rulings]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for rulings
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property rulings
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=this_item_also_includes, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property thisItemAlsoIncludes with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:thisItemAlsoIncludes]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for thisItemAlsoIncludes
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property thisItemAlsoIncludes
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=this_item_excludes, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property thisItemExcludes with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:thisItemExcludes]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for thisItemExcludes
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property thisItemExcludes
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Ejb3Column -
+				Binding column: Ejb3Column{table=org.hibernate.mapping.Table(nace), mappingColumn=this_item_includes, insertable=true, updatable=true, unique=false}
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				MetadataSourceProcessor property thisItemIncludes with lazy=false
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.AbstractPropertyHolder -
+				Attempting to locate auto-apply AttributeConverter for property [com.pankaj.nace.dto.Nace:thisItemIncludes]
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				building SimpleValue for thisItemIncludes
+2022-07-12 02:50:27 [main] DEBUG o.h.cfg.annotations.PropertyBinder -
+				Building property thisItemIncludes
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for orderId
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for code
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for description
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for level
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for parent
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for referenceToIsicRev4
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for rulings
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for thisItemAlsoIncludes
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for thisItemExcludes
+2022-07-12 02:50:27 [main] DEBUG o.h.c.annotations.SimpleValueBinder -
+				Starting fillSimpleValue for thisItemIncludes
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.mapping.PrimaryKey -
+				Forcing column [order_id] to be non-null as it is part of the primary key for table [nace]
+2022-07-12 02:50:27 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Building session factory
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				SessionFactory name : null
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Automatic flush during beforeCompletion(): enabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Automatic session close at end of transaction: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Statistics: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Deleted entity synthetic identifier rollback: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Default entity-mode: pojo
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Allow initialization of lazy state outside session : disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Using BatchFetchStyle : LEGACY
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Default batch fetch size: -1
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Maximum outer join fetch depth: 2
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Default null ordering: NONE
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Order SQL updates by primary key: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Order SQL inserts for batching: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				multi-tenancy strategy : NONE
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JTA Track by Thread: enabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Query language substitutions: {}
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Named query checking : enabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level cache: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level query cache: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level query cache factory: null
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level cache region prefix: null
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Optimize second-level cache for minimal puts: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Structured second-level cache entries: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Second-level cache direct-reference entries: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Automatic eviction of collection cache: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC batch size: 15
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC batch updates for versioned data: enabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Scrollable result sets: enabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Wrap result sets: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC3 getGeneratedKeys(): enabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JDBC result set fetch size: null
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Connection release mode: ON_CLOSE
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				Generate SQL with comments: disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JPA compliance - query : disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JPA compliance - closed-handling : disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JPA compliance - lists : disabled
+2022-07-12 02:50:27 [main] DEBUG org.hibernate.cfg.Settings -
+				JPA compliance - transactions : disabled
+2022-07-12 02:50:27 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Session factory constructed with filter configurations : {}
+2022-07-12 02:50:27 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=11, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@5b0902b4, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=F:\pankaj\workspace\nace-demo\target\test-classes;F:\pankaj\workspace\nace-demo\target\classes;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-batch\2.5.5\spring-boot-starter-batch-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.5\spring-boot-starter-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.5\spring-boot-starter-logging-2.5.5.jar;C:\Users\shiwani\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\shiwani\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\shiwani\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\shiwani\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\shiwani\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\shiwani\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\shiwani\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.5\spring-boot-starter-jdbc-2.5.5.jar;C:\Users\shiwani\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\shiwani\.m2\repository\org\springframework\batch\spring-batch-core\4.3.3\spring-batch-core-4.3.3.jar;C:\Users\shiwani\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.5\jackson-databind-2.12.5.jar;C:\Users\shiwani\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.5\jackson-core-2.12.5.jar;C:\Users\shiwani\.m2\repository\io\micrometer\micrometer-core\1.7.4\micrometer-core-1.7.4.jar;C:\Users\shiwani\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\shiwani\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\shiwani\.m2\repository\javax\batch\javax.batch-api\1.0\javax.batch-api-1.0.jar;C:\Users\shiwani\.m2\repository\org\codehaus\jettison\jettison\1.2\jettison-1.2.jar;C:\Users\shiwani\.m2\repository\org\springframework\batch\spring-batch-infrastructure\4.3.3\spring-batch-infrastructure-4.3.3.jar;C:\Users\shiwani\.m2\repository\org\springframework\retry\spring-retry\1.3.1\spring-retry-1.3.1.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-beans\5.3.10\spring-beans-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-tx\5.3.10\spring-tx-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.5\spring-boot-starter-data-jpa-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.5\spring-boot-starter-aop-2.5.5.jar;C:\Users\shiwani\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\shiwani\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\shiwani\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\shiwani\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\shiwani\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\shiwani\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\shiwani\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\shiwani\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\shiwani\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\shiwani\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\shiwani\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.5\jaxb-runtime-2.3.5.jar;C:\Users\shiwani\.m2\repository\org\glassfish\jaxb\txw2\2.3.5\txw2-2.3.5.jar;C:\Users\shiwani\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\shiwani\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\shiwani\.m2\repository\org\springframework\data\spring-data-jpa\2.5.5\spring-data-jpa-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\data\spring-data-commons\2.5.5\spring-data-commons-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-orm\5.3.10\spring-orm-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-aspects\5.3.10\spring-aspects-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.5\spring-boot-starter-web-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.5\spring-boot-starter-json-2.5.5.jar;C:\Users\shiwani\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.5\jackson-datatype-jdk8-2.12.5.jar;C:\Users\shiwani\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.5\jackson-datatype-jsr310-2.12.5.jar;C:\Users\shiwani\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.5\jackson-module-parameter-names-2.12.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.5\spring-boot-starter-tomcat-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.53\tomcat-embed-core-9.0.53.jar;C:\Users\shiwani\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.53\tomcat-embed-el-9.0.53.jar;C:\Users\shiwani\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.53\tomcat-embed-websocket-9.0.53.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-web\5.3.10\spring-web-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-webmvc\5.3.10\spring-webmvc-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\shiwani\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\shiwani\.m2\repository\io\springfox\springfox-swagger-ui\2.7.0\springfox-swagger-ui-2.7.0.jar;C:\Users\shiwani\.m2\repository\io\springfox\springfox-spring-web\2.7.0\springfox-spring-web-2.7.0.jar;C:\Users\shiwani\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\shiwani\.m2\repository\io\springfox\springfox-swagger2\2.7.0\springfox-swagger2-2.7.0.jar;C:\Users\shiwani\.m2\repository\io\swagger\swagger-annotations\1.5.13\swagger-annotations-1.5.13.jar;C:\Users\shiwani\.m2\repository\io\swagger\swagger-models\1.5.13\swagger-models-1.5.13.jar;C:\Users\shiwani\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.5\jackson-annotations-2.12.5.jar;C:\Users\shiwani\.m2\repository\io\springfox\springfox-spi\2.7.0\springfox-spi-2.7.0.jar;C:\Users\shiwani\.m2\repository\io\springfox\springfox-core\2.7.0\springfox-core-2.7.0.jar;C:\Users\shiwani\.m2\repository\io\springfox\springfox-schema\2.7.0\springfox-schema-2.7.0.jar;C:\Users\shiwani\.m2\repository\io\springfox\springfox-swagger-common\2.7.0\springfox-swagger-common-2.7.0.jar;C:\Users\shiwani\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\shiwani\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\shiwani\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\shiwani\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\shiwani\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\shiwani\.m2\repository\org\mapstruct\mapstruct\1.1.0.Final\mapstruct-1.1.0.Final.jar;C:\Users\shiwani\.m2\repository\net\sf\ehcache\ehcache\2.10.9.2\ehcache-2.10.9.2.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-devtools\2.5.5\spring-boot-devtools-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot\2.5.5\spring-boot-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.5\spring-boot-autoconfigure-2.5.5.jar;C:\Users\shiwani\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\shiwani\.m2\repository\org\mariadb\jdbc\mariadb-java-client\2.7.4\mariadb-java-client-2.7.4.jar;C:\Users\shiwani\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\shiwani\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shiwani\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.5.5\spring-boot-starter-test-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-test\2.5.5\spring-boot-test-2.5.5.jar;C:\Users\shiwani\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.5.5\spring-boot-test-autoconfigure-2.5.5.jar;C:\Users\shiwani\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\shiwani\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\shiwani\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\shiwani\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\shiwani\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\shiwani\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\shiwani\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\shiwani\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shiwani\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\shiwani\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\shiwani\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\shiwani\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\shiwani\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\shiwani\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\shiwani\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\shiwani\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\shiwani\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\shiwani\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.22\byte-buddy-agent-1.10.22.jar;C:\Users\shiwani\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\shiwani\.m2\repository\org\mockito\mockito-junit-jupiter\3.9.0\mockito-junit-jupiter-3.9.0.jar;C:\Users\shiwani\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\shiwani\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-core\5.3.10\spring-core-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-jcl\5.3.10\spring-jcl-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-test\5.3.10\spring-test-5.3.10.jar;C:\Users\shiwani\.m2\repository\org\xmlunit\xmlunit-core\2.8.2\xmlunit-core-2.8.2.jar;C:\Users\shiwani\.m2\repository\org\springframework\batch\spring-batch-test\4.3.3\spring-batch-test-4.3.3.jar;C:\Users\shiwani\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\shiwani\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\shiwani\.m2\repository\org\springframework\spring-jdbc\5.3.10\spring-jdbc-5.3.10.jar;D:\sw\sts-4.0.1.RELEASE\configuration\org.eclipse.osgi\233\0\.cp;D:\sw\sts-4.0.1.RELEASE\configuration\org.eclipse.osgi\232\0\.cp, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://openjdk.java.net/, user.timezone=Europe/London, os.name=Windows 10, java.vm.specification.version=11, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-11.0.8\bin, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 49522 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.pankaj.nace.repository.NaceRepositoryTest, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@9d3d54e, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\shiwani, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2020-07-14, java.home=C:\Program Files\Java\jdk-11.0.8, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, hibernate.hbm2ddl.auto=create-drop, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.8+10-LTS, user.name=shiwani, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=18.9, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\shiwani\AppData\Local\Temp\, java.version=11.0.8, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=F:\pankaj\workspace\nace-demo, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=27064, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@2f04993d, java.library.path=C:\Program Files\Java\jdk-11.0.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\shiwani\Desktop\Software\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;D:\sw\apache-maven-3.3.9\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\shiwani\Anaconda3;C:\Users\shiwani\Anaconda3\Library\mingw-w64\bin;C:\Users\shiwani\Anaconda3\Library\usr\bin;C:\Users\shiwani\Anaconda3\Library\bin;C:\Users\shiwani\Anaconda3\Scripts;C:\Users\shiwani\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;;F:\sw\gradle-6.5.1\bin;C:\Users\shiwani\AppData\Roaming\npm;D:\sw\sts-4.0.1.RELEASE;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=11.0.8+10-LTS, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=55.0}
+2022-07-12 02:50:27 [main] DEBUG o.h.secure.spi.JaccIntegrator -
+				Skipping JACC integration as it was not enabled
+2022-07-12 02:50:27 [main] DEBUG o.h.internal.SessionFactoryImpl -
+				Instantiated session factory
+2022-07-12 02:50:27 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1c297897] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@2ec85a25]
+2022-07-12 02:50:27 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				Not known whether passed class name [com.pankaj.nace.dto.Nace] is safe
+2022-07-12 02:50:27 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl -
+				No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.pankaj.nace.dto.Nace
+2022-07-12 02:50:28 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				Static SQL for entity: com.pankaj.nace.dto.Nace
+2022-07-12 02:50:28 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Version select: select order_id from nace where order_id =?
+2022-07-12 02:50:28 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Snapshot select: select nace_.order_id, nace_.code as code2_0_, nace_.description as descript3_0_, nace_.level as level4_0_, nace_.parent as parent5_0_, nace_.reference_to_isic_rev4 as referenc6_0_, nace_.rulings as rulings7_0_, nace_.this_item_also_includes as this_ite8_0_, nace_.this_item_excludes as this_ite9_0_, nace_.this_item_includes as this_it10_0_ from nace nace_ where nace_.order_id=?
+2022-07-12 02:50:28 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Insert 0: insert into nace (code, description, level, parent, reference_to_isic_rev4, rulings, this_item_also_includes, this_item_excludes, this_item_includes, order_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-07-12 02:50:28 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Update 0: update nace set code=?, description=?, level=?, parent=?, reference_to_isic_rev4=?, rulings=?, this_item_also_includes=?, this_item_excludes=?, this_item_includes=? where order_id=?
+2022-07-12 02:50:28 [main] DEBUG o.h.p.entity.AbstractEntityPersister -
+				 Delete 0: delete from nace where order_id=?
+2022-07-12 02:50:28 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl -
+				Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7848321e]
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : code
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : description
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : level
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : parent
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : referenceToIsicRev4
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : rulings
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : thisItemAlsoIncludes
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : thisItemExcludes
+2022-07-12 02:50:28 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker -
+				Visiting attribute path : thisItemIncludes
+2022-07-12 02:50:28 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -
+				Building LoadPlan...
+2022-07-12 02:50:28 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor -
+				processing queryspace <gen:0>
+2022-07-12 02:50:28 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter -
+				LoadPlan(entity=com.pankaj.nace.dto.Nace)
+    - Returns
+       - EntityReturnImpl(entity=com.pankaj.nace.dto.Nace, querySpaceUid=<gen:0>, path=com.pankaj.nace.dto.Nace)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.pankaj.nace.dto.Nace)
+          - SQL table alias mapping - nace0_
+          - alias suffix - 0_
+          - suffixed key columns - {order_id1_0_0_}
+
+2022-07-12 02:50:28 [main] DEBUG o.h.loader.entity.plan.EntityLoader -
+				Static select for entity com.pankaj.nace.dto.Nace [NONE]: select nace0_.order_id as order_id1_0_0_, nace0_.code as code2_0_0_, nace0_.description as descript3_0_0_, nace0_.level as level4_0_0_, nace0_.parent as parent5_0_0_, nace0_.reference_to_isic_rev4 as referenc6_0_0_, nace0_.rulings as rulings7_0_0_, nace0_.this_item_also_includes as this_ite8_0_0_, nace0_.this_item_excludes as this_ite9_0_0_, nace0_.this_item_includes as this_it10_0_0_ from nace nace0_ where nace0_.order_id=?
+2022-07-12 02:50:28 [main] DEBUG org.hibernate.SQL -
+				drop table if exists nace
+2022-07-12 02:50:28 [main] DEBUG org.hibernate.SQL -
+				create table nace (order_id varchar(255) not null, code varchar(255), description varchar(255), level varchar(255), parent varchar(255), reference_to_isic_rev4 varchar(255), rulings varchar(255), this_item_also_includes varchar(255), this_item_excludes varchar(255), this_item_includes varchar(500), primary key (order_id)) engine=InnoDB
+2022-07-12 02:50:29 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-12 02:50:29 [main] DEBUG o.h.query.spi.NamedQueryRepository -
+				Checking 0 named HQL queries
+2022-07-12 02:50:29 [main] DEBUG o.h.query.spi.NamedQueryRepository -
+				Checking 0 named SQL queries
+2022-07-12 02:50:29 [main] DEBUG o.h.internal.SessionFactoryRegistry -
+				Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@65af05b2
+2022-07-12 02:50:29 [main] DEBUG o.h.internal.SessionFactoryRegistry -
+				Registering SessionFactory: 0422db18-f70a-474b-a097-3dabb71a4984 (<unnamed>)
+2022-07-12 02:50:29 [main] DEBUG o.h.internal.SessionFactoryRegistry -
+				Not binding SessionFactory to JNDI, no JNDI name configured
+2022-07-12 02:50:29 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'naceDemoApplication'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionManager'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.data.jpa.util.JpaMetamodelCacheCleanup'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'naceRepository'
+2022-07-12 02:50:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'jpaMappingContext'
+2022-07-12 02:50:29 [main] DEBUG o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean -
+				Initializing JpaMetamodelMappingContext…
+2022-07-12 02:50:29 [main] DEBUG o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean -
+				Finished initializing JpaMetamodelMappingContext!
+2022-07-12 02:50:29 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler -
+				Creating new EntityManager for shared EntityManager invocation
+2022-07-12 02:50:29 [main] DEBUG o.h.s.internal.StatisticsInitiator -
+				Statistics initialized [enabled=false]
+2022-07-12 02:50:29 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler -
+				Creating new EntityManager for shared EntityManager invocation
+2022-07-12 02:50:30 [main] DEBUG o.s.d.r.c.s.RepositoryFactorySupport -
+				Initializing repository instance for com.pankaj.nace.repository.NaceRepository…
+2022-07-12 02:50:30 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler -
+				Creating new EntityManager for shared EntityManager invocation
+2022-07-12 02:50:30 [main] DEBUG o.s.d.r.c.s.RepositoryFactorySupport -
+				Finished creation of repository instance for {}.
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'jdbcTemplate'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'dataSource'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'namedParameterJdbcTemplate'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'namedParameterJdbcTemplate' via factory method to bean named 'jdbcTemplate'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionTemplate'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'transactionTemplate' via factory method to bean named 'transactionManager'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'testEntityManager'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'testEntityManager' via factory method to bean named 'entityManagerFactory'
+2022-07-12 02:50:30 [main] DEBUG o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   DataSourceAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: io.r2dbc.spi.ConnectionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceConfiguration.Hikari matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+      - @ConditionalOnProperty (spring.datasource.type=com.zaxxer.hikari.HikariDataSource) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceInitializationConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.TransactionManager' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   HibernateJpaAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'javax.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor' (OnClassCondition)
+
+   HibernateJpaConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   JdbcTemplateConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,javax.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactoryBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#jpaVendorAdapter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NamedParameterJdbcTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a primary bean from beans 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration NONE cache type (CacheCondition)
+
+   SqlInitializationAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.sql.init.enabled) matched (OnPropertyCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on SqlInitializationAutoConfiguration.SqlInitializationModeCondition.ModeIsNever @ConditionalOnProperty (spring.sql.init.mode=never) did not find property 'mode' (SqlInitializationAutoConfiguration.SqlInitializationModeCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TestEntityManagerAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.persistence.EntityManagerFactory' (OnClassCondition)
+
+   TestEntityManagerAutoConfiguration#testEntityManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionAutoConfiguration#platformTransactionManagerCustomizers matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a primary bean from beans 'transactionManager' (OnBeanCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration#transactionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerEntityManagerFactoryDependsOnPostProcessor:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
+      Did not match:
+         - EmbeddedDataSource spring.datasource.url is set (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+   DataSourceConfiguration.Dbcp2:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Generic:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (OnPropertyCondition)
+
+   DataSourceConfiguration.OracleUcp:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSourceImpl', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourceConfiguration.Tomcat:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration.DifferentCredentialsCondition.DataCredentials @ConditionalOnProperty (spring.datasource.data-username) did not find property 'data-username'; NestedCondition on DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration.DifferentCredentialsCondition.SchemaCredentials @ConditionalOnProperty (spring.datasource.schema-username) did not find property 'schema-username' (DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration.DifferentCredentialsCondition)
+
+   DataSourceInitializationConfiguration.SharedCredentialsDataSourceInitializationConfiguration:
+      Did not match:
+         - DataSource Initialization did not find configured properties spring.datasource.data-username, spring.datasource.schema-password, spring.datasource.schema[0], spring.datasource.data[0], spring.datasource.data, spring.datasource.schema-username, spring.datasource.data-password, spring.datasource.initialization-mode, spring.datasource.schema, spring.datasource.sql-script-encoding, spring.datasource.separator, spring.datasource.platform, spring.datasource.continue-on-error (DataSourceInitializationConfiguration.SharedCredentialsDataSourceInitializationConfiguration.DataSourceInitializationCondition)
+
+   DataSourceJmxConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jmx.enabled=true) found different value in property 'enabled' (OnPropertyCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.OracleUcpPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSource', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration#transactionManager:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager (OnBeanCondition)
+
+   EhCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.cache.ehcache.EhCacheCacheManager' (OnClassCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   GenericCacheConfiguration:
+      Did not match:
+         - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration unknown cache type (CacheCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.embedded.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
+
+   JpaBaseConfiguration.JpaWebConfiguration:
+      Did not match:
+         - not a servlet web application (OnWebApplicationCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) found different value in property 'bootstrap-mode'; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) found different value in property 'bootstrap-mode' (JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition)
+
+   LiquibaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'liquibase.change.DatabaseChange' (OnClassCondition)
+
+   R2dbcInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.r2dbc.spi.ConnectionFactory', 'org.springframework.r2dbc.connection.init.DatabasePopulator' (OnClassCondition)
+
+   RedisCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
+
+   SimpleCacheConfiguration:
+      Did not match:
+         - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration unknown cache type (CacheCondition)
+
+   TestDatabaseAutoConfiguration#dataSource:
+      Did not match:
+         - @ConditionalOnProperty (spring.test.database.replace=AUTO_CONFIGURED) found different value in property 'replace' (OnPropertyCondition)
+
+   TestDatabaseAutoConfiguration#embeddedDataSourceBeanFactoryPostProcessor:
+      Did not match:
+         - @ConditionalOnProperty (spring.test.database.replace=ANY) found different value in property 'replace' (OnPropertyCondition)
+
+   TransactionAutoConfiguration#transactionalOperator:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class' (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration
+
+
+
+2022-07-12 02:50:30 [main] INFO  c.p.n.repository.NaceRepositoryTest -
+				Started NaceRepositoryTest in 9.418 seconds (JVM running for 11.849)
+2022-07-12 02:50:30 [main] DEBUG o.s.boot.devtools.restart.Restarter -
+				Creating new Restarter for thread Thread[main,5,main]
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Storing ApplicationContext [1017792343] in cache under key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:30 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:30 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				Before test method: context [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = com.pankaj.nace.repository.NaceRepositoryTest@1a760689, testMethod = saveNaceSuccess@NaceRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.t.TransactionalTestExecutionListener -
+				Explicit transaction definition [PROPAGATION_REQUIRED,ISOLATION_DEFAULT] found for test context [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = com.pankaj.nace.repository.NaceRepositoryTest@1a760689, testMethod = saveNaceSuccess@NaceRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:30 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.t.TransactionalTestExecutionListener -
+				No method-level @Rollback override: using default rollback [true] for test context [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = com.pankaj.nace.repository.NaceRepositoryTest@1a760689, testMethod = saveNaceSuccess@NaceRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]].
+2022-07-12 02:50:30 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Creating new transaction with name [com.pankaj.nace.repository.NaceRepositoryTest.saveNaceSuccess]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2022-07-12 02:50:30 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Opened new EntityManager [SessionImpl(594913654<open>)] for JPA transaction
+2022-07-12 02:50:30 [main] DEBUG o.h.e.t.internal.TransactionImpl -
+				On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2022-07-12 02:50:30 [main] DEBUG o.h.e.t.internal.TransactionImpl -
+				begin
+2022-07-12 02:50:30 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@57839834]
+2022-07-12 02:50:30 [main] INFO  o.s.t.c.t.TransactionContext -
+				Began transaction (1) for test context [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = com.pankaj.nace.repository.NaceRepositoryTest@1a760689, testMethod = saveNaceSuccess@NaceRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@13dc6649]; rollback [true]
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:30 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+2022-07-12 02:50:30 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:30 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Found thread-bound EntityManager [SessionImpl(594913654<open>)] for JPA transaction
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Participating in existing transaction
+2022-07-12 02:50:31 [main] DEBUG o.h.e.i.EntityCopyObserverFactoryInitiator -
+				Configured EntityCopyObserver strategy: disallow
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.loader.Loader -
+				Static select for action ACTION_MERGE on entity com.pankaj.nace.dto.Nace: select nace0_.order_id as order_id1_0_0_, nace0_.code as code2_0_0_, nace0_.description as descript3_0_0_, nace0_.level as level4_0_0_, nace0_.parent as parent5_0_0_, nace0_.reference_to_isic_rev4 as referenc6_0_0_, nace0_.rulings as rulings7_0_0_, nace0_.this_item_also_includes as this_ite8_0_0_, nace0_.this_item_excludes as this_ite9_0_0_, nace0_.this_item_includes as this_it10_0_0_ from nace nace0_ where nace0_.order_id=?
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.loader.Loader -
+				Loading entity: [com.pankaj.nace.dto.Nace#orderId]
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.SQL -
+				select nace0_.order_id as order_id1_0_0_, nace0_.code as code2_0_0_, nace0_.description as descript3_0_0_, nace0_.level as level4_0_0_, nace0_.parent as parent5_0_0_, nace0_.reference_to_isic_rev4 as referenc6_0_0_, nace0_.rulings as rulings7_0_0_, nace0_.this_item_also_includes as this_ite8_0_0_, nace0_.this_item_excludes as this_ite9_0_0_, nace0_.this_item_includes as this_it10_0_0_ from nace nace0_ where nace0_.order_id=?
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.loader.Loader -
+				Done entity load
+2022-07-12 02:50:31 [main] DEBUG o.h.e.i.AbstractSaveEventListener -
+				Generated identifier: orderId, using strategy: org.hibernate.id.Assigned
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Found thread-bound EntityManager [SessionImpl(594913654<open>)] for JPA transaction
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Participating in existing transaction
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Found thread-bound EntityManager [SessionImpl(594913654<open>)] for JPA transaction
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Participating in existing transaction
+2022-07-12 02:50:31 [main] DEBUG o.h.q.c.internal.CriteriaQueryImpl -
+				Rendered criteria query -> select generatedAlias0 from Nace as generatedAlias0
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator -
+				QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@24954e82
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl -
+				parse() - HQL: select generatedAlias0 from com.pankaj.nace.dto.Nace as generatedAlias0
+2022-07-12 02:50:31 [main] DEBUG o.h.hql.internal.ast.ErrorTracker -
+				throwQueryException() : no errors
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl -
+				--- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'pankaj'
+       |     |  |  |  \-[IDENT] Node: 'nace'
+       |     |  |  \-[IDENT] Node: 'dto'
+       |     |  \-[IDENT] Node: 'Nace'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker -
+				select << begin [level=1, statement=select]
+2022-07-12 02:50:31 [main] DEBUG o.h.h.internal.ast.tree.FromElement -
+				FromClause{level=1} : com.pankaj.nace.dto.Nace (generatedAlias0) -> nace0_
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode -
+				Resolved : generatedAlias0 -> nace0_.order_id
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker -
+				select : finishing up [level=1, statement=select]
+2022-07-12 02:50:31 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker -
+				processQuery() :  ( SELECT ( {select clause} nace0_.order_id ) ( FromClause{level=1} nace nace0_ ) )
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.util.JoinProcessor -
+				Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Nace): [nace]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.pankaj.nace.dto.Nace)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.util.JoinProcessor -
+				Using FROM fragment [nace nace0_]
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker -
+				select >> end [level=1, statement=select]
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl -
+				--- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (nace)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'nace0_.order_id as order_id1_0_' {alias=generatedAlias0, className=com.pankaj.nace.dto.Nace, tableAlias=nace0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'nace0_.code as code2_0_, nace0_.description as descript3_0_, nace0_.level as level4_0_, nace0_.parent as parent5_0_, nace0_.reference_to_isic_rev4 as referenc6_0_, nace0_.rulings as rulings7_0_, nace0_.this_item_also_includes as this_ite8_0_, nace0_.this_item_excludes as this_ite9_0_, nace0_.this_item_includes as this_it10_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[nace0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'nace nace0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=nace,tableAlias=nace0_,origin=null,columns={,className=com.pankaj.nace.dto.Nace}}
+
+2022-07-12 02:50:31 [main] DEBUG o.h.hql.internal.ast.ErrorTracker -
+				throwQueryException() : no errors
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl -
+				HQL: select generatedAlias0 from com.pankaj.nace.dto.Nace as generatedAlias0
+2022-07-12 02:50:31 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl -
+				SQL: select nace0_.order_id as order_id1_0_, nace0_.code as code2_0_, nace0_.description as descript3_0_, nace0_.level as level4_0_, nace0_.parent as parent5_0_, nace0_.reference_to_isic_rev4 as referenc6_0_, nace0_.rulings as rulings7_0_, nace0_.this_item_also_includes as this_ite8_0_, nace0_.this_item_excludes as this_ite9_0_, nace0_.this_item_includes as this_it10_0_ from nace nace0_
+2022-07-12 02:50:31 [main] DEBUG o.h.hql.internal.ast.ErrorTracker -
+				throwQueryException() : no errors
+2022-07-12 02:50:31 [main] DEBUG o.h.e.i.AbstractFlushingEventListener -
+				Processing flush-time cascades
+2022-07-12 02:50:31 [main] DEBUG o.h.e.i.AbstractFlushingEventListener -
+				Dirty checking collections
+2022-07-12 02:50:31 [main] DEBUG o.h.e.i.AbstractFlushingEventListener -
+				Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2022-07-12 02:50:31 [main] DEBUG o.h.e.i.AbstractFlushingEventListener -
+				Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2022-07-12 02:50:31 [main] DEBUG o.h.internal.util.EntityPrinter -
+				Listing entities:
+2022-07-12 02:50:31 [main] DEBUG o.h.internal.util.EntityPrinter -
+				com.pankaj.nace.dto.Nace{thisItemExcludes=thisItemExcludes, parent=parent, code=code, orderId=orderId, level=level, description=Description ..., rulings=rulings, referenceToIsicRev4=referenceToIsicRev4, thisItemIncludes=thisItemIncludes, thisItemAlsoIncludes=thisItemAlsoIncludes}
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.engine.spi.ActionQueue -
+				Changes must be flushed to space: nace
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.SQL -
+				insert into nace (code, description, level, parent, reference_to_isic_rev4, rulings, this_item_also_includes, this_item_excludes, this_item_includes, order_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.SQL -
+				select nace0_.order_id as order_id1_0_, nace0_.code as code2_0_, nace0_.description as descript3_0_, nace0_.level as level4_0_, nace0_.parent as parent5_0_, nace0_.reference_to_isic_rev4 as referenc6_0_, nace0_.rulings as rulings7_0_, nace0_.this_item_also_includes as this_ite8_0_, nace0_.this_item_excludes as this_ite9_0_, nace0_.this_item_includes as this_it10_0_ from nace nace0_
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.loader.Loader -
+				Result set row: 0
+2022-07-12 02:50:31 [main] DEBUG org.hibernate.loader.Loader -
+				Result row: EntityKey[com.pankaj.nace.dto.Nace#orderId]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Initiating transaction rollback
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Rolling back JPA transaction on EntityManager [SessionImpl(594913654<open>)]
+2022-07-12 02:50:31 [main] DEBUG o.h.e.t.internal.TransactionImpl -
+				rolling back
+2022-07-12 02:50:31 [main] DEBUG o.s.orm.jpa.JpaTransactionManager -
+				Closing JPA EntityManager [SessionImpl(594913654<open>)] after transaction
+2022-07-12 02:50:31 [main] INFO  o.s.t.c.t.TransactionContext -
+				Rolled back transaction for test: [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = com.pankaj.nace.repository.NaceRepositoryTest@1a760689, testMethod = saveNaceSuccess@NaceRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				After test method: context [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = com.pankaj.nace.repository.NaceRepositoryTest@1a760689, testMethod = saveNaceSuccess@NaceRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext [1017792343] from cache with key [[MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-07-12 02:50:31 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@2a2798a2 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1]
+2022-07-12 02:50:31 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				After test class: context [DefaultTestContext@525575 testClass = NaceRepositoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@46dffdc3 testClass = NaceRepositoryTest, locations = '{}', classes = '{class com.pankaj.nace.NaceDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5a709816 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fce8fd9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@560348e6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@651aed93, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@25783e8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f704591, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+2022-07-12 02:50:31 [SpringApplicationShutdownHook] DEBUG o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3caa4757, started on Tue Jul 12 02:50:22 BST 2022
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] DEBUG o.h.internal.SessionFactoryImpl -
+				HHH000031: Closing
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL -
+				drop table if exists nace
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@3db1d3cc] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2ec85a25]
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] DEBUG o.h.s.i.AbstractServiceRegistryImpl -
+				Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl -
+				Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@68b7d0ef: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@1a34b95: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@f64a5d1: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@b5b20e5: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@4e59afea: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@553dba57: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@7f5dc70c: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@2dd38c0a: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@2e7650a5: (connection evicted)
+2022-07-12 02:50:32 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@16a1a83e: (connection evicted)
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-07-12 02:50:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
